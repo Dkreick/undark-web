@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Undark",
+"productVersion": "0.1",
+"dataUrl": "Undark.data.unityweb",
+"wasmCodeUrl": "Undark.wasm.code.unityweb",
+"wasmFrameworkUrl": "Undark.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.17f1"
+}
