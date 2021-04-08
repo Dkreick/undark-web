@@ -1,13 +1,22 @@
-import React from "react";
-import Unity, { UnityContent } from "react-unity-webgl";
-
-const unityContent = new UnityContent(
-  "Undark/Build/Undark.json",
-  "Undark/Build/UnityLoader.js"
-);
+import React from 'react'
+import Header from './components/Header'
+import Intro from './pages/Intro'
+import Playable from './pages/Playable'
+import Project from './pages/Project'
+import Team from './pages/Team'
+import ContactUs from './pages/ContactUs'
 
 const App = () => {
-  return <Unity unityContent={unityContent} />;
-};
+  return (
+    <div>
+      <Header />
+      <Intro />
+      <Team />
+      <Project />
+      <Playable />
+      <ContactUs />
+    </div>
+  )
+}
 
-export default App;
+export default App
